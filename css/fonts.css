@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Cosmic Neue";
+  src: url(../fonts/ComicNeue-Light.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Cosmic Neue";
+  src: url(../fonts/ComicNeue-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Cosmic Neue";
+  src: url(../fonts/ComicNeue-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}

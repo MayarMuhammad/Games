@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="games d-block">
+        <header><img src="./img/wraper.png" alt="cover" class="w-100"></header>
+        <nav class="navbar navbar-expand-lg w-75 mx-auto sticky-top z-1">
+            <div class="container ">
+                <a class="navbar-brand text-white" href="#"><img src="./img/logo-sm.png" alt="logo" class="me-1">Game
+                    Reviews</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="mmorpg" href="#">MMORBG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="shooter" href="#">SHOOTER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="sailing" href="#">SAILING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="permadeath" href="#">PERMADEATH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="superhero" href="#">SUPERHERO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pixel" href="#">PIXEL</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="container my-5">
+            <div class="row">
+            </div>
+        </main>
+    </section>
+    <section class="gameDetails vh-100 d-none">
+        <div class="container p-5">
+            <div class="gameHeader d-flex justify-content-between mb-5">
+                <h2 class="text-white">Game Details</h2>
+                <button type="button" class="btn-close"></button>
+            </div>
+            <div class="details d-flex">
+                <div class="row">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="loadingScreen position-fixed top-0 bottom-0 start-0 end-0 bg-secondary z-2">
+        <div class="vh-100 d-flex justify-content-center align-content-center flex-wrap">
+            <i class="fa-solid fa-spinner fa-5x fa-spin"></i>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.6.3.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>
